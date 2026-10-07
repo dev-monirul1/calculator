@@ -9,9 +9,7 @@ buttons.forEach((button) => {
         let value = button.innerText;
 
         if (value === "AC") {
-
             display.value = "";
-
         }
         else if (value === "DEL") {
             display.value = display.value.slice(0, -1);
